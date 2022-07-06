@@ -20,10 +20,10 @@ function App() {
     <main>
       <div className="card">
         <p className="number">
-          {quote ? `advice #${quote.id}` : "advice #000"}
+          {quote ? `advice #${quote.id}` : "advice #007"}
         </p>
         <p className="advice">
-          {quote ? `"${quote.advice}"` : "Roll dice for advice :D"}
+          {quote ? `"${quote.advice}"` : "Roll dice for advice 📜"}
         </p>
         <img className="desktop" src={lineDesktop} alt="" />
         <img className="mobile" src={lineMobile} alt="" />
