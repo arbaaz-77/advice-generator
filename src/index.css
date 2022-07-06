@@ -41,6 +41,10 @@ main {
   opacity: 0.7;
 }
 
+.mobile {
+  display: none;
+}
+
 .number {
   color: var(--clr-green);
   opacity: 0.8;
@@ -65,4 +69,18 @@ main {
 
 .dice:hover {
   background-color: var(--clr-light-cyan);
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 80%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
 }
